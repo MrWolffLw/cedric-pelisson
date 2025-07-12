@@ -18,3 +18,5 @@ Ce projet est une structure HTML minimaliste avec intégration de [Bootstrap](ht
 
 <!-- Bootstrap JS Bundle (avec Popper) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-HoA0K9nXr+RZtL/7Lr2dTSTeQnQxB5k+9Zk5g6Tq9IvI0Msl4kX5+g6jNLloKfNf" crossorigin="anonymous"></script>
+
+https://mrwolfflw.github.io/cedric-pelisson/
