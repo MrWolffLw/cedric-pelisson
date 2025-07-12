@@ -27,23 +27,24 @@
                     <div class="modal-content">
                         <div class="modal-header text-center d-flex flex-column">
                             <h2 class="fs-2">E-mail</h2>
-                            <a href="https://www.linkedin.com/in/c%C3%A9dric-p%C3%A9lisson-webdev/" target="_blank" class="text-center">
+                            <a href="https://www.linkedin.com/in/c%C3%A9dric-p%C3%A9lisson-webdev/" target="_blank"
+                                class="text-center">
                                 <h1 class="modal-title fs-5" id="exampleModalLabel">pelisson.cedric@gmail.com</h1>
                             </a>
 
 
                         </div>
                         <div class="modal-body">
-                            
-                                <div class="mb-3">
-                                    <label for="recipient-name" class="col-form-label fs-2">Mes Réseaux</label><br>
-                                    <a href="https://github.com/MrWolffLw" target="_blank"><i
-                                            class="fa-brands fa-github fs-2"></i></a>
-                                    <a href="https://www.linkedin.com/in/c%C3%A9dric-p%C3%A9lisson-webdev/"
-                                        target="_blank"> <i class="fa-brands fa-linkedin fs-2"></i></a>
-                                </div>
-                                
-                            
+
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label fs-2">Mes Réseaux</label><br>
+                                <a href="https://github.com/MrWolffLw" target="_blank"><i
+                                        class="fa-brands fa-github fs-2"></i></a>
+                                <a href="https://www.linkedin.com/in/c%C3%A9dric-p%C3%A9lisson-webdev/" target="_blank">
+                                    <i class="fa-brands fa-linkedin fs-2"></i></a>
+                            </div>
+
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">X</button>
@@ -52,16 +53,45 @@
                 </div>
             </div>
 
+            <button type="button" class="btn-grad1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                Mes projets
+            </button>
+
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel1">Mes projets</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p> <i class="fa-brands fa-github"></i></p>
+                            <p><i class="fa-brands fa-github"></i></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </header>
     <main>
 
-        <section>
-
-            <div class="container m-5">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="text-center pb-5">Mon Parcours</h2>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        Mon Parcours
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
                         <p class="fs-4 text-center">
                             Après plusieurs années en design graphique, je me spécialise
                             aujourd’hui dans le développement web.
@@ -70,9 +100,19 @@
                             digitales impactantes.
                         </p>
                     </div>
-                    <div class="col-12">
-                        <ul class="list-group list-group-flush fs-4 ">
-                            <p class="fs-2 text-center pb-5">Mes compétences :</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        Mes compétences
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                         <ul class="list-group list-group-flush fs-4 ">
                             <li class="list-group-item"><i class="fa-solid fa-magnifying-glass"></i> Curiosité</li>
                             <li class="list-group-item"><i class="fa-solid fa-hands-holding-circle"></i> Sens du détail
                             </li>
@@ -90,19 +130,18 @@
                             <li class="list-group-item"><i class="fa-solid fa-pen-fancy"></i> Créativité</li>
                         </ul>
                     </div>
-
                 </div>
-
             </div>
-
-
-        </section>
-
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <p class="list-group list-group-flush fs-2 text-center">Mes Formations</p>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        Mes Formations
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
                         <ul class="list-group list-group-flush fs-4">
                             <li class="list-group-item"><i class="fa-solid fa-graduation-cap"></i> AFEC, Lyon 69,
                                 formation Developpeur web Full Stack du 10/03/2025 au 27/02/2026</li>
@@ -115,38 +154,58 @@
                                 Design La Fontaine à Montluçon 03, Bachelor III Design Graphique
                             </li>
                         </ul>
-
                     </div>
-                    <div class="col-12">
-                        <p class="fs-2 text-center">Expériences professionnelles</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        Expériences professionnelles
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                    <div class="accordion-body">
                         <ul class="list-group list-group-flush fs-4">
                             <li class="list-group-item"><i class="fa-solid fa-briefcase"></i> Génération custom Saint
                                 Chamond 42, stage de graphiste en impression textile.</li>
                             <li class="list-group-item"> <i class="fa-solid fa-briefcase"></i>Focal JMLAB Saint Etienne
                                 42, Technicien opérateur.</li>
                         </ul>
-
                     </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <p class="list-group list-group-flush fs-2 text-center">Mes outils</p>
+            </div><div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFive">
+                        Mes outils
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                    <div class="accordion-body">
                         <ul class="list-group list-group-flush fs-4">
-                            <li class="list-group-item"><i class="fa-brands fa-html5"></i> HTML/ <i
-                                    class="fa-brands fa-css"></i> CSS</li>
+                            <li class="list-group-item"><i class="fa-brands fa-html5"></i> HTML/
+                                <i class="fa-brands fa-css"></i> CSS
+                            </li>
                             <li class="list-group-item"><i class="fa-brands fa-git"></i> GIT/ <i
                                     class="fa-brands fa-github"></i> GITHUB</li>
                             <li class="list-group-item"><i class="fa-brands fa-bootstrap"></i> BOOTSTRAP</li>
                             <li class="list-group-item"><i class="fa-brands fa-js"></i> JAVASCRIPT</li>
                         </ul>
-
                     </div>
-                    <div class="col-12">
-                        <p class="fs-2 text-center">Mes loisirs</p>
+                </div>
+            </div><div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseSix">
+                        Mes loisirs
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                    <div class="accordion-body">
                         <ul class="list-group list-group-flush fs-4">
                             <li class="list-group-item"><i class="fa-solid fa-gamepad"></i> Jeux Vidéos</li>
                             <li class="list-group-item"><i class="fa-solid fa-flask"></i> Sciences</li>
@@ -155,11 +214,10 @@
                             <li class="list-group-item"><i class="fa-solid fa-microchip"></i> Technologie</li>
                             <li class="list-group-item"><i class="fa-solid fa-film"></i> Cinéma</li>
                         </ul>
-
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <footer>
         <div class="bg-body-secondary">
