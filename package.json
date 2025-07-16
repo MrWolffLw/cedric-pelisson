@@ -1,0 +1,24 @@
+{
+  "name": "cedric-pelisson",
+  "version": "1.0.0",
+  "description": "Ce document décrit les pistes d'améliorations visuelles modernes à intégrer à la page personnelle de Cédric Pélisson, dans le but d'attirer l'attention des recruteurs et de valoriser son profil de développeur web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrWolffLw/cedric-pelisson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MrWolffLw/cedric-pelisson/issues"
+  },
+  "homepage": "https://github.com/MrWolffLw/cedric-pelisson#readme",
+  "dependencies": {
+    "bootstrap": "5.3"
+  }
+}

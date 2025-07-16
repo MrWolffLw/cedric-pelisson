@@ -15,7 +15,7 @@
 }
 
 .btn-grad {
-  background-image: linear-gradient(to right, rgb(108, 117, 125, 1) 0%, #26a0da 51%, rgb(108, 117, 125, 1))
+  background-image: linear-gradient(to left, rgb(108, 117, 125, 1) 0%, #26a0da 51%, rgb(108, 117, 125, 1))
 }
 
 .btn-grad {
@@ -40,7 +40,7 @@
 }
 
 .btn-grad1 {
-  background-image: linear-gradient(to right, #000000 0%, #e74c3c 51%, #000000 100%)
+  background-image: linear-gradient(to left, rgb(108, 117, 125, 1) 0%, #26a0da 51%, rgb(108, 117, 125, 1))
 }
 
 .btn-grad1 {
@@ -54,10 +54,8 @@
   border-radius: 10px;
   display: block;
   border: none;
-  justify-self: end;
+  justify-self: center;
   align-self: center;
-  position: fixed;
-  z-index: 6;
 }
 
 .btn-grad1:hover {

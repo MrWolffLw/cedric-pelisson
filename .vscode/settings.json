@@ -1,3 +1,15 @@
 {
-    "liveServer.settings.port": 5501
+    "liveSassCompiler.settings.formats": [
+        {
+            "format": "expanded", // ou "compressed" pour minifier
+            "extensionName": ".css",
+            "savePath": "/css" // Indique que le fichier CSS sera créé dans un dossier 'css' à la racine du projet
+        }
+    ],
+    "liveSassCompiler.settings.includeItems": [ // S'assurer qu'il compile les fichiers de votre dossier scss
+        "scss/**/*.scss"
+    ],
+    "liveSassCompiler.settings.excludeItems": [ // Exclure les fichiers de node_modules
+        "**/node_modules/**"
+    ]
 }
