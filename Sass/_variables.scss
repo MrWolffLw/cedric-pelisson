@@ -1,7 +1,11 @@
-$theme-colors-primary: #1e2a38;
-$theme-colors-danger: #f8f9fa;
-$theme-colors-success: #2ed3b7;
-$theme-colors-secondary: #2c3e50;
-$font-family: 'Poppins', 'Montserrat', 'Inter', sans-serif;
-$taille-police-base: 18px;
-$marge-section: 40px;
+$primary: #1e2a38;
+$danger: #f8f9fa;
+$success: #2ed3b7;
+$secondary: #2c3e50;
+
+$font-family-base: 'Poppins', 'Montserrat', 'Inter', sans-serif;
+$font-size-base: 18px;
+$spacer: 40px; // Pour les marges si besoin
+
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+
